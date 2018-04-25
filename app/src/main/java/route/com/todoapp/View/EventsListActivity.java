@@ -13,10 +13,10 @@ import java.util.List;
 import route.com.todoapp.Adapters.EventsListAdapter;
 import route.com.todoapp.Model.Event;
 import route.com.todoapp.R;
-import route.com.todoapp.View.Base.MyBaseActivity;
+import route.com.todoapp.View.Base.NobelActivity;
 import route.com.todoapp.ViewModels.EventListViewModel;
 
-public class EventsListActivity extends MyBaseActivity {
+public class EventsListActivity extends NobelActivity {
 
     RecyclerView recyclerView;
     EventsListAdapter adapter;

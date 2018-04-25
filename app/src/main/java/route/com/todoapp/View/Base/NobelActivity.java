@@ -18,9 +18,9 @@ import route.com.todoapp.ViewModels.Base.NobelViewModel;
  * m.nabil.fci2015@gmail.com
  */
 
-public class MyBaseActivity extends AppCompatActivity{
+public class NobelActivity extends AppCompatActivity{
 
-   protected MyBaseActivity activity;
+   protected NobelActivity activity;
     MaterialDialog dialog;
     private NobelViewModel nobelViewModel;
 

@@ -17,9 +17,9 @@ import route.com.todoapp.ViewModels.Base.NobelViewModel;
  * m.nabil.fci2015@gmail.com
  */
 
-public class MyBaseFragment extends Fragment {
+public class NobelFragment extends Fragment {
 
-   protected MyBaseActivity activity;
+   protected NobelActivity activity;
    protected Fragment fragment;
    private NobelViewModel nobelViewModel;
 
@@ -49,7 +49,7 @@ public class MyBaseFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        activity=(MyBaseActivity)context;
+        activity=(NobelActivity)context;
 
     }
 
