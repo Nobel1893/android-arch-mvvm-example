@@ -28,4 +28,7 @@ public interface ToDoDao {
     @Delete
     void DeleteTodoItem(Todo item);
 
+    @Query("Select * from todos where title = :title")
+    List<Todo> getTodo(String  title);
+
 }
