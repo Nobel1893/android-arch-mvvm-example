@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="route.com.todoapp.View.TodoListActivity">
+    tools:context="route.nobel.todoapp.View.TodoListActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "route.com.todoapp"
+        applicationId "com.nobel.baseapp"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 1
